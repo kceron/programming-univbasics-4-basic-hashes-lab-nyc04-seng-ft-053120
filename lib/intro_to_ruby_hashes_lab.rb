@@ -22,8 +22,3 @@ def id_hash_generator(number)
   generator = { }
   generator.fetch(:id, number)
 end
-
-
-h = { "a" => 100, "b" => 200 }
-h.fetch("a")                            #=> 100
-h.fetch("z", "go fish") 
