@@ -19,7 +19,6 @@ end
 
 def id_hash_generator(number)
   # return a hash with a key :id assigned to the provided number
-  generator = { :id => nil }
-  generator.fetch_values(:id) { |k| k = number }
+  generator = { :id => number }
 end
 
